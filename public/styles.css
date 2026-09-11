@@ -1,35 +1,141 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
+    color: #333333;
+    background-color: #fdfbfb;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 1.6;
+    text-align: center;
 }
 
-header, footer {
+header {
     background: #ffe6ee;
-    padding: 10px 20px;
+    padding: 25px 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0 0 5px 0;
+    color: #2c2c2c;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    color: #666666;
+    font-style: italic;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #444444;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #b84a7e;
 }
 
 main {
     flex: 1;
-    padding: 20px;
-    text-align: center;
+    padding: 30px 20px;
 }
 
 section {
-    margin: auto;
-    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffe6ee;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555555;
+}
+
+footer {
+    background: #ffe6ee;
+    padding: 15px 20px;
+    font-size: 0.85rem;
+    color: #666666;
+}
+
+footer a {
+    color: #444444;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    body {
+        text-align: left;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 100vh;
+        padding: 50px 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-right: 1px solid #f0d5df;
+        z-index: 100;
+    }
+
+    header h1 {
+        font-size: 2.1rem;
+    }
+
+    header p {
+        margin-bottom: 35px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    main {
+        margin-left: 280px;
+        padding: 60px;
+        text-align: left;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 0;
+    }
+
+    footer {
+        margin-left: 280px;
+        padding: 20px 60px;
+        text-align: left;
+    }
 }
