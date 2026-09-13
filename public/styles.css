@@ -167,13 +167,13 @@ footer a {
 @media (min-width: 751px) {
 
     body {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        text-align: left;
     }
 
     header {
-        width: 30%;
+        width: 100%;
         min-height: 100vh;
         padding: 60px 35px;
         text-align: left;
@@ -205,7 +205,7 @@ footer a {
     }
 
     main {
-        width: 70%;
+        width: 100%;
         min-height: 100vh;
         padding: 70px 50px;
     }
@@ -222,10 +222,10 @@ footer a {
     }
 
     footer {
-        width: 70%;
-        margin-left: 30%;
-        text-align: left;
+        grid-column: 2;
+        width: 100%;
         padding: 20px 50px;
+        text-align: left;
     }
 }
 
