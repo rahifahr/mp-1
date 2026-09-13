@@ -66,8 +66,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f7cbd9;
-    color: #333333;
+    background-color: #3F0912;
+    color: #3F0912;
 }
 
 main {
@@ -200,11 +200,11 @@ footer a {
     }
 
     nav li {
-        padding: 3px 0;
+        width: 100%;
     }
 
     nav a {
-        width: 100%;
+        width: 180px;
         padding: 12px 18px;
     }
 
