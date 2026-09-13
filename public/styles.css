@@ -107,8 +107,8 @@ section p {
     max-width: 850px;
     margin: 60px auto 30px auto;
     padding: 30px;
-    background-color: #fff0f4;
-    border: 1px solid #f0d5df;
+    background-color: #FFF5F7;
+    border: 1px solid #E8C3CC;
     border-radius: 10px;
 }
 
@@ -138,14 +138,16 @@ section p {
     padding: 10px 18px;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1rem;
-    border: 1px solid #d5aabb;
-    border-radius: 5px;
-    background-color: #ffe6ee;
+    border: none;
+    border-radius: 6px;
+    background-color: #7A263A;
+    color: #ffffff;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .calculator-buttons button:hover {
-    background-color: #f7cbd9;
+    background-color: #A83F58;
 }
 
 .calculator-result {
