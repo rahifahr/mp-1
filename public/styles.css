@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #F3DDE2;
+    background-color: #F8E9ED;
     color: #3F383A;
     padding: 30px 25px;
     text-align: center;
@@ -57,7 +57,7 @@ nav a {
     width: 180px;
     text-decoration: none;
     color: #FFFFFF;
-    background-color: #8B4A5A;
+    background-color: #8F263D;
     font-weight: 600;
     font-size: calc(0.8rem + 0.15vw);
     padding: 12px 18px;
@@ -67,7 +67,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #B87585;
+    background-color: #B83F59;
 }
 
 main {
@@ -88,7 +88,7 @@ section h2 {
     margin-top: 0;
     margin-bottom: 20px;
     padding-bottom: 8px;
-    border-bottom: 2px solid #ffe6ee;
+    border-bottom: 2px solid #F8E9ED;
 }
 
 section h3 {
@@ -107,8 +107,8 @@ section p {
     max-width: 850px;
     margin: 60px auto 30px auto;
     padding: 30px;
-    background-color: #F8ECEF;
-    border: 1px solid #DFC3C9;
+    background-color: #F8E9ED;
+    border: 1px solid #F8E9ED;
     border-radius: 10px;
 }
 
@@ -123,7 +123,7 @@ section p {
     padding: 12px;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1rem;
-    border: 1px solid #cccccc;
+    border: 1px solid #CCCCCC;
     border-radius: 5px;
 }
 
@@ -140,14 +140,14 @@ section p {
     font-size: 1rem;
     border: none;
     border-radius: 6px;
-    background-color: #8B4A5A;
+    background-color: #8F263D;
     color: #FFFFFF;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .calculator-buttons button:hover {
-    background-color: #B87585;
+    background-color: #B83F59;
 }
 
 .calculator-result {
@@ -160,7 +160,7 @@ section p {
 }
 
 footer {
-    background-color: #ffe6ee;
+    background-color: #F8E9ED;
     padding: 18px 25px;
     font-size: 0.85rem;
     color: #666666;
