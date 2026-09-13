@@ -1,41 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     color: #333333;
     background-color: #fdfbfb;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     line-height: 1.6;
+    min-height: 100vh;
 }
-
-/* Header */
 
 header {
     background-color: #ffe6ee;
     color: #333333;
-    padding: 25px 20px;
+    padding: 30px 25px;
     text-align: center;
 }
 
 header h1 {
-    font-size: calc(1.8rem + 0.5vw);
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: calc(1.8rem + 0.6vw);
     margin: 0 0 5px 0;
     color: #2c2c2c;
 }
 
 header p {
     font-size: calc(0.9rem + 0.2vw);
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
     color: #666666;
     font-style: italic;
 }
-
-/* Navigation */
 
 nav ul {
     list-style: none;
@@ -44,7 +41,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -56,50 +54,50 @@ nav a {
     text-decoration: none;
     color: #444444;
     font-weight: 600;
-    font-size: calc(0.85rem + 0.15vw);
+    font-size: calc(0.8rem + 0.15vw);
+    padding: 6px 8px;
 }
 
 nav a:hover {
     color: #b84a7e;
 }
 
-/* Main content */
-
 main {
-    flex: 1;
     width: 100%;
-    padding: 40px 20px;
+    min-height: 100vh;
+    padding: 50px 30px;
 }
 
 section {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto 50px auto;
 }
 
 section h2 {
-    font-size: calc(1.4rem + 0.4vw);
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: calc(1.5rem + 0.5vw);
     color: #2c2c2c;
     margin-top: 0;
     margin-bottom: 20px;
+    padding-bottom: 8px;
     border-bottom: 2px solid #ffe6ee;
-    padding-bottom: 5px;
 }
 
 section h3 {
+    font-size: calc(1.05rem + 0.2vw);
     color: #444444;
     margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 section p {
-    font-size: calc(0.95rem + 0.1vw);
+    font-size: calc(0.9rem + 0.15vw);
     color: #555555;
 }
 
-/* Calculator */
-
 .calculator {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 850px;
+    margin: 60px auto 30px auto;
     padding: 30px;
     background-color: #fff0f4;
     border: 1px solid #f0d5df;
@@ -115,7 +113,7 @@ section p {
 .calculator-inputs input {
     width: 50%;
     padding: 12px;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1rem;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -130,7 +128,7 @@ section p {
 
 .calculator-buttons button {
     padding: 10px 18px;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1rem;
     border: 1px solid #d5aabb;
     border-radius: 5px;
@@ -151,11 +149,9 @@ section p {
     font-size: calc(1rem + 0.3vw);
 }
 
-/* Footer */
-
 footer {
     background-color: #ffe6ee;
-    padding: 15px 20px;
+    padding: 18px 25px;
     font-size: 0.85rem;
     color: #666666;
     text-align: center;
@@ -166,27 +162,24 @@ footer a {
     text-decoration: underline;
 }
 
-/* Desktop */
+/* laptop/desktop screens */
 
 @media (min-width: 751px) {
 
     body {
-        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
 
     header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 25%;
-        height: 100vh;
-        padding: 50px 30px;
+        width: 30%;
+        min-height: 100vh;
+        padding: 60px 35px;
+        text-align: left;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border-right: 1px solid #f0d5df;
-        text-align: left;
-        z-index: 100;
     }
 
     header h1 {
@@ -200,57 +193,81 @@ footer a {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
-        gap: 15px;
+        gap: 12px;
+    }
+
+    nav li {
+        padding: 3px 0;
+    }
+
+    nav a {
+        padding: 5px 0;
     }
 
     main {
-        margin-left: 25%;
-        width: 75%;
+        width: 70%;
         min-height: 100vh;
-        padding: 60px;
+        padding: 70px 50px;
     }
 
     section {
-        max-width: 70%;
-        margin: 0 0 60px 0;
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto 60px auto;
     }
 
     .calculator {
-        max-width: 70%;
+        width: 100%;
+        max-width: 850px;
     }
 
     footer {
-        margin-left: 25%;
-        width: 75%;
-        padding: 20px 60px;
+        width: 70%;
+        margin-left: 30%;
         text-align: left;
+        padding: 20px 50px;
     }
 }
 
-/* Smaller screens */
+/* phone screens */
 
 @media (max-width: 750px) {
 
     header {
+        width: 100%;
         text-align: center;
+        padding: 25px 15px;
     }
 
     nav ul {
         flex-direction: row;
         width: 100%;
+        gap: 5px;
+    }
+
+    nav li {
+        padding: 3px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 5px 6px;
     }
 
     main {
-        padding: 30px 15px;
+        width: 100%;
+        padding: 35px 15px;
     }
 
     section {
         width: 100%;
+        margin-bottom: 40px;
     }
 
     .calculator {
         width: 100%;
         padding: 20px;
+        margin-top: 40px;
     }
 
     .calculator-inputs {
@@ -263,5 +280,14 @@ footer a {
 
     .calculator-buttons {
         justify-content: center;
+    }
+
+    .calculator-buttons button {
+        padding: 9px 14px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 15px;
     }
 }
