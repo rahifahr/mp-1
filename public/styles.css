@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Georgia, serif;
@@ -7,26 +11,31 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #ffe6ee;
+    color: #333333;
+    padding: 25px 20px;
     text-align: center;
 }
 
-header {
-    background: #ffe6ee;
-    padding: 25px 20px;
-}
-
 header h1 {
-    font-size: 1.8rem;
+    font-size: calc(1.8rem + 0.5vw);
     margin: 0 0 5px 0;
     color: #2c2c2c;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: calc(0.9rem + 0.2vw);
     margin: 0 0 20px 0;
     color: #666666;
     font-style: italic;
 }
+
+/* Navigation */
 
 nav ul {
     list-style: none;
@@ -39,48 +48,117 @@ nav ul {
     flex-wrap: wrap;
 }
 
+nav li {
+    padding: 5px;
+}
+
 nav a {
     text-decoration: none;
     color: #444444;
     font-weight: 600;
-    font-size: 0.95rem;
-    transition: color 0.2s ease;
+    font-size: calc(0.85rem + 0.15vw);
 }
 
 nav a:hover {
     color: #b84a7e;
 }
 
+/* Main content */
+
 main {
     flex: 1;
-    padding: 30px 20px;
+    width: 100%;
+    padding: 40px 20px;
 }
 
 section {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
 }
 
 section h2 {
-    font-size: 1.5rem;
+    font-size: calc(1.4rem + 0.4vw);
     color: #2c2c2c;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-bottom: 2px solid #ffe6ee;
     padding-bottom: 5px;
-    display: inline-block;
+}
+
+section h3 {
+    color: #444444;
+    margin-top: 25px;
 }
 
 section p {
-    font-size: 1rem;
+    font-size: calc(0.95rem + 0.1vw);
     color: #555555;
 }
 
+/* Calculator */
+
+.calculator {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff0f4;
+    border: 1px solid #f0d5df;
+    border-radius: 10px;
+}
+
+.calculator-inputs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.calculator-inputs input {
+    width: 50%;
+    padding: 12px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.calculator-buttons button {
+    padding: 10px 18px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    border: 1px solid #d5aabb;
+    border-radius: 5px;
+    background-color: #ffe6ee;
+    cursor: pointer;
+}
+
+.calculator-buttons button:hover {
+    background-color: #f7cbd9;
+}
+
+.calculator-result {
+    min-height: 40px;
+}
+
+.calculator-result h3 {
+    margin: 0;
+    font-size: calc(1rem + 0.3vw);
+}
+
+/* Footer */
+
 footer {
-    background: #ffe6ee;
+    background-color: #ffe6ee;
     padding: 15px 20px;
     font-size: 0.85rem;
     color: #666666;
+    text-align: center;
 }
 
 footer a {
@@ -88,7 +166,10 @@ footer a {
     text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+/* Desktop */
+
+@media (min-width: 751px) {
+
     body {
         text-align: left;
     }
@@ -97,19 +178,19 @@ footer a {
         position: fixed;
         top: 0;
         left: 0;
-        width: 280px;
+        width: 25%;
         height: 100vh;
         padding: 50px 30px;
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-right: 1px solid #f0d5df;
+        text-align: left;
         z-index: 100;
     }
 
     header h1 {
-        font-size: 2.1rem;
+        font-size: calc(1.8rem + 0.8vw);
     }
 
     header p {
@@ -123,19 +204,64 @@ footer a {
     }
 
     main {
-        margin-left: 280px;
+        margin-left: 25%;
+        width: 75%;
+        min-height: 100vh;
         padding: 60px;
-        text-align: left;
     }
 
     section {
-        max-width: 800px;
-        margin: 0;
+        max-width: 70%;
+        margin: 0 0 60px 0;
+    }
+
+    .calculator {
+        max-width: 70%;
     }
 
     footer {
-        margin-left: 280px;
+        margin-left: 25%;
+        width: 75%;
         padding: 20px 60px;
         text-align: left;
+    }
+}
+
+/* Smaller screens */
+
+@media (max-width: 750px) {
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .calculator {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .calculator-inputs {
+        flex-direction: column;
+    }
+
+    .calculator-inputs input {
+        width: 100%;
+    }
+
+    .calculator-buttons {
+        justify-content: center;
     }
 }
