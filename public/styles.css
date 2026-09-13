@@ -34,6 +34,8 @@ header p {
     font-style: italic;
 }
 
+/* Navigation */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -47,19 +49,25 @@ nav ul {
 }
 
 nav li {
-    padding: 5px;
+    padding: 0;
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     color: #444444;
+    background-color: #ffffff;
     font-weight: 600;
     font-size: calc(0.8rem + 0.15vw);
-    padding: 6px 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #f0d5df;
+    transition: 0.2s;
 }
 
 nav a:hover {
-    color: #b84a7e;
+    background-color: #f7cbd9;
+    color: #333333;
 }
 
 main {
