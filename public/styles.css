@@ -166,20 +166,15 @@ footer a {
 
 @media (min-width: 751px) {
 
-    body {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        text-align: left;
-    }
-
     header {
-        width: 100%;
-        min-height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 30%;
+        height: 100vh;
         padding: 60px 35px;
         text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        overflow-y: auto;
     }
 
     header h1 {
@@ -205,7 +200,8 @@ footer a {
     }
 
     main {
-        width: 100%;
+        width: 70%;
+        margin-left: 30%;
         min-height: 100vh;
         padding: 70px 50px;
     }
@@ -222,8 +218,8 @@ footer a {
     }
 
     footer {
-        grid-column: 2;
-        width: 100%;
+        width: 70%;
+        margin-left: 30%;
         padding: 20px 50px;
         text-align: left;
     }
