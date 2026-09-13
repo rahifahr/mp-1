@@ -54,20 +54,20 @@ nav li {
 
 nav a {
     display: block;
+    width: 180px;
     text-decoration: none;
-    color: #444444;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #7A263A;
     font-weight: 600;
     font-size: calc(0.8rem + 0.15vw);
-    padding: 10px 16px;
+    padding: 12px 18px;
     border-radius: 8px;
-    border: 1px solid #f0d5df;
+    text-align: center;
     transition: 0.2s;
 }
 
 nav a:hover {
-    background-color: #3F0912;
-    color: #3F0912;
+    background-color: #A83F58;
 }
 
 main {
