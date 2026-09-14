@@ -9,7 +9,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     color: #3F383A;
     background-color: #FCF9F9;
-    line-height: 1;
+    line-height: 1.25;
     min-height: 100vh;
 }
 
@@ -94,7 +94,7 @@ section h2 {
 section h3 {
     font-size: calc(1.05rem + 0.2vw);
     color: #444444;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
