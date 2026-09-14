@@ -224,7 +224,7 @@ footer a {
     }
 
     nav li {
-        width: 100%;
+        width: auto;
     }
 
     nav a {
