@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d838460-11ff-49ad-8a99-d88f583a9695" name="Changes" comment="Added css styling for my headshot" />
+    <list default="true" id="4d838460-11ff-49ad-8a99-d88f583a9695" name="Changes" comment="Resizing image margins" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,113 +13,113 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rahifahr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rahifahr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rahifahr/mp-1.git",
-    "accountId": "6279c28c-4c37-42b5-a9ff-77c61d0b6a99"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rahifahr/mp-1.git&quot;,
+    &quot;accountId&quot;: &quot;6279c28c-4c37-42b5-a9ff-77c61d0b6a99&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.049233755368057" />
-      <entry key="MS500" value="1.9550574222067227" />
-      <entry key="S2" value="4.675768225649271" />
-      <entry key="S5" value="6.7012061298521415" />
-      <entry key="S10" value="7.749884255934452" />
-      <entry key="S30" value="11.27583061283615" />
-      <entry key="S60" value="18.057338004615836" />
-      <entry key="M2" value="27.560266735584065" />
-      <entry key="M5" value="44.0352252423051" />
-      <entry key="M10" value="62.33901357932577" />
-      <entry key="M15" value="76.08679833864117" />
-      <entry key="M30" value="106.02945273563822" />
-      <entry key="H1" value="147.99467957947934" />
-      <entry key="H2" value="228.06465671373036" />
-      <entry key="H4" value="385.018973497093" />
-      <entry key="D1" value="855.6479895114661" />
-      <entry key="W1" value="1216.0736861757407" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000014554375" />
+      <entry key="S5" value="1.0008321678686671" />
+      <entry key="S10" value="1.0767270590241542" />
+      <entry key="S30" value="3.063596858230054" />
+      <entry key="S60" value="7.304856125734621" />
+      <entry key="M2" value="15.176872967365592" />
+      <entry key="M5" value="35.534846643739336" />
+      <entry key="M10" value="60.46523200936731" />
+      <entry key="M15" value="78.61253791248245" />
+      <entry key="M30" value="115.63684871468993" />
+      <entry key="H1" value="163.1888660782398" />
+      <entry key="H2" value="246.41072938882587" />
+      <entry key="H4" value="405.0651114518692" />
+      <entry key="D1" value="881.3417511457963" />
+      <entry key="W1" value="1244.403363795913" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.8280078103922574E-103" />
-      <entry key="S2" value="2.4873861041569566E-26" />
-      <entry key="S5" value="5.7318825325877976E-11" />
-      <entry key="S10" value="7.57091971466334E-6" />
-      <entry key="S30" value="0.019635842815337368" />
-      <entry key="S60" value="0.14012795158474767" />
-      <entry key="M2" value="0.37433668212552657" />
-      <entry key="M5" value="0.6750018369039602" />
-      <entry key="M10" value="0.821584954161246" />
-      <entry key="M15" value="0.8772061206053231" />
-      <entry key="M30" value="0.936713636444273" />
-      <entry key="H1" value="0.9917878659975334" />
-      <entry key="H2" value="1.3280999987866027" />
-      <entry key="H4" value="2.301906066632174" />
-      <entry key="D1" value="4.997409529986108" />
-      <entry key="W1" value="5.842691713684943" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.232058473050991E-98" />
+      <entry key="S5" value="1.0087688978584142E-39" />
+      <entry key="S10" value="3.176112242755937E-20" />
+      <entry key="S30" value="3.166882479036439E-7" />
+      <entry key="S60" value="5.627506089766984E-4" />
+      <entry key="M2" value="0.023722365164053457" />
+      <entry key="M5" value="0.22390469213578004" />
+      <entry key="M10" value="0.47318568462691113" />
+      <entry key="M15" value="0.6072316503525063" />
+      <entry key="M30" value="0.7793512134997912" />
+      <entry key="H1" value="0.9046528949344899" />
+      <entry key="H2" value="1.2684179217438614" />
+      <entry key="H4" value="2.2495901106944634" />
+      <entry key="D1" value="4.978298194129401" />
+      <entry key="W1" value="5.839494483291532" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9051329720938543" />
-      <entry key="MS500" value="1.912870042166154" />
-      <entry key="S2" value="4.655824623133622" />
-      <entry key="S5" value="6.690563954885077" />
-      <entry key="S10" value="7.743889469426032" />
-      <entry key="S30" value="11.290248672916613" />
-      <entry key="S60" value="18.18637913560484" />
-      <entry key="M2" value="27.920271811754994" />
-      <entry key="M5" value="44.69665759394193" />
-      <entry key="M10" value="63.14836223133158" />
-      <entry key="M15" value="76.95289205136375" />
-      <entry key="M30" value="106.95763055598587" />
-      <entry key="H1" value="148.98051258075677" />
-      <entry key="H2" value="229.38820335609736" />
-      <entry key="H4" value="387.31696087726675" />
-      <entry key="D1" value="860.644005874215" />
-      <entry key="W1" value="1221.9161323315927" />
+      <entry key="MS100" value="6.684638386871587E-16" />
+      <entry key="MS500" value="9.226045322238341E-4" />
+      <entry key="S2" value="0.17428254754781208" />
+      <entry key="S5" value="0.4979935602887472" />
+      <entry key="S10" value="0.7807687589186023" />
+      <entry key="S30" value="2.9202817075689076" />
+      <entry key="S60" value="7.184487239626256" />
+      <entry key="M2" value="15.10017286346187" />
+      <entry key="M5" value="35.694750711356676" />
+      <entry key="M10" value="60.89674269744696" />
+      <entry key="M15" value="79.18774627047662" />
+      <entry key="M30" value="116.3962637264092" />
+      <entry key="H1" value="164.08149368423125" />
+      <entry key="H2" value="247.6714564656631" />
+      <entry key="H4" value="407.30918940267003" />
+      <entry key="D1" value="886.3183794703325" />
+      <entry key="W1" value="1250.2425725261724" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JC4S6C6Zex9jkIz4UyHLZyG3vV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/rrahi/cs303Projects/mini-projects/mp-1/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rrahi/cs303Projects/mini-projects/mp-1/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -134,31 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789151712869</updated>
-      <workItem from="1789151713901" duration="17552000" />
-    </task>
-    <task id="LOCAL-00001" summary="Intial commit">
-      <option name="closed" value="true" />
-      <created>1789152400346</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1789152400346</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Deployment testing">
-      <option name="closed" value="true" />
-      <created>1789152709337</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1789152709337</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Deployment testing">
-      <option name="closed" value="true" />
-      <created>1789152724047</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1789152724047</updated>
+      <workItem from="1789151713901" duration="17880000" />
     </task>
     <task id="LOCAL-00004" summary="Deployment testing">
       <option name="closed" value="true" />
@@ -512,17 +488,53 @@
       <option name="project" value="LOCAL" />
       <updated>1789360785677</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Adjusting sizing of headshot">
+      <option name="closed" value="true" />
+      <created>1789360917147</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1789360917147</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added more spacing for home page">
+      <option name="closed" value="true" />
+      <created>1789360973218</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1789360973218</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Resizing image again">
+      <option name="closed" value="true" />
+      <created>1789361042967</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1789361042970</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Resizing image margins">
+      <option name="closed" value="true" />
+      <created>1789361082621</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1789361082621</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Resizing image margins">
+      <option name="closed" value="true" />
+      <created>1789361136187</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1789361136187</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Making the navigation menu more aesthetic and button like, as shown in the example" />
-    <MESSAGE value="Experimenting with navigation menu buttons" />
-    <MESSAGE value="Cherry colored buttons for the menu" />
-    <MESSAGE value="Redoing: Cherry colored buttons for the menu" />
     <MESSAGE value="Making the calculator match the navigation bar" />
     <MESSAGE value="New color scheme implementation (experimental)" />
     <MESSAGE value="Scratch the bright red" />
@@ -544,6 +556,10 @@
     <MESSAGE value="Added headshot to home page" />
     <MESSAGE value="Moved headshot into the actual correct block, yet to resize and format in css" />
     <MESSAGE value="Added css styling for my headshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added css styling for my headshot" />
+    <MESSAGE value="Adjusting sizing of headshot" />
+    <MESSAGE value="Added more spacing for home page" />
+    <MESSAGE value="Resizing image again" />
+    <MESSAGE value="Resizing image margins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resizing image margins" />
   </component>
 </project>
