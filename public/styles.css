@@ -81,6 +81,13 @@ section {
     margin: 0 auto 50px auto;
 }
 
+section img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 section h2 {
     font-family: 'DM Serif Display', Georgia, serif;
