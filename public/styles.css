@@ -94,11 +94,15 @@ section h2 {
 section h3 {
     font-size: calc(1.05rem + 0.2vw);
     color: #444444;
+    margin-top: 20px;
+    margin-bottom: 3px;
 }
 
 section p {
     font-size: calc(0.9rem + 0.15vw);
     color: #555555;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .calculator {
@@ -130,6 +134,7 @@ section p {
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .calculator-buttons button {
