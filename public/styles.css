@@ -81,6 +81,7 @@ section {
     margin: 0 auto 50px auto;
 }
 
+
 section h2 {
     font-family: 'DM Serif Display', Georgia, serif;
     font-size: calc(1.5rem + 0.5vw);
@@ -96,6 +97,10 @@ section h3 {
     color: #444444;
     margin-top: 20px;
     margin-bottom: 3px;
+}
+
+section ul {
+    margin-top: 3px;
 }
 
 section p {
