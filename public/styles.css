@@ -112,6 +112,7 @@ section p {
     background-color: #F8E9ED;
     border: 1px solid #F8E9ED;
     border-radius: 10px;
+    text-align: center;
 }
 
 .calculator-inputs {
