@@ -107,7 +107,7 @@ section ul {
 
 section img {
     width: 200px;
-    height: 250px;
+    height: auto;
     float: left;
     margin-right: 15px;
     margin-bottom: 5px;
@@ -275,7 +275,7 @@ footer a {
 
     section img {
         width: 150px;
-        height: 190px;
+        height: auto;
         margin-right: 10px;
     }
 
