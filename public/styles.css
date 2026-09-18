@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Georgia, "Times New Roman", serif;;
+    font-family: "Open Sans", Arial, sans-serif;
     color: #3F383A;
     background-color: #FCF9F9;
     line-height: 1.2;
@@ -18,14 +20,14 @@ header {
 }
 
 header h1 {
-    font-family: Georgia, serif;
-    font-size: 2rem;
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: calc(1.8rem + 0.3vw);
     margin-bottom: 5px;
     color: #2C2C2C;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: calc(0.9rem + 0.1vw);
     margin-bottom: 20px;
     color: #666666;
     font-style: italic;
@@ -62,6 +64,7 @@ nav a:hover {
 
 main {
     width: 100%;
+    min-height: 100vh;
     padding: 40px 30px;
 }
 
@@ -71,8 +74,8 @@ section {
 }
 
 section h2 {
-    font-family: Georgia, serif;
-    font-size: 2rem;
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: calc(1.7rem + 0.3vw);
     color: #2C2C2C;
     margin-bottom: 15px;
     padding-bottom: 8px;
@@ -80,21 +83,21 @@ section h2 {
 }
 
 section h3 {
-    font-size: 1.25rem;
+    font-size: calc(1.1rem + 0.15vw);
     color: #444444;
     margin-top: 15px;
     margin-bottom: 3px;
 }
 
 section h4 {
-    font-size: 1.05rem;
+    font-size: calc(0.95rem + 0.1vw);
     color: #444444;
     margin-top: 10px;
     margin-bottom: 3px;
 }
 
 section p {
-    font-size: 1rem;
+    font-size: calc(0.9rem + 0.1vw);
     color: #555555;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -107,6 +110,7 @@ section ul {
 
 section img {
     width: 225px;
+    max-width: 100%;
     height: auto;
     float: left;
     margin-right: 15px;
@@ -135,8 +139,8 @@ section img {
 .calculator-inputs input {
     width: 50%;
     padding: 10px;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: calc(0.9rem + 0.1vw);
     border: 1px solid #CCCCCC;
 }
 
@@ -151,7 +155,7 @@ section img {
     background-color: #8B4A5A;
     color: white;
     border: 1px solid #8B4A5A;
-    font-size: 1rem;
+    font-size: calc(0.9rem + 0.1vw);
     font-weight: bold;
 }
 
@@ -169,7 +173,7 @@ footer {
     padding: 18px 25px;
     text-align: center;
     color: #666666;
-    font-size: 0.9rem;
+    font-size: calc(0.8rem + 0.1vw);
 }
 
 footer a {
@@ -186,10 +190,11 @@ footer a {
         width: 25%;
         height: 100vh;
         padding: 60px 35px;
+        text-align: left;
     }
 
     header h1 {
-        font-size: 2.1rem;
+        font-size: calc(1.9rem + 0.3vw);
     }
 
     header p {
@@ -207,12 +212,13 @@ footer a {
     nav a {
         display: block;
         width: 180px;
+        max-width: 100%;
         margin: 8px auto;
     }
 
     main {
         width: 75%;
-        min-height: calc(100vh - 60px);
+        min-height: 100vh;
         margin-left: 25%;
         padding: 60px 50px;
     }
@@ -246,7 +252,7 @@ footer a {
     }
 
     header h1 {
-        font-size: 1.8rem;
+        font-size: calc(1.6rem + 0.3vw);
     }
 
     nav ul {
@@ -265,6 +271,7 @@ footer a {
 
     main {
         width: 100%;
+        min-height: 100vh;
         padding: 35px 15px;
     }
 
@@ -275,6 +282,7 @@ footer a {
 
     section img {
         width: 150px;
+        max-width: 100%;
         height: auto;
         margin-right: 10px;
     }
