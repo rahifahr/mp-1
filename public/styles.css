@@ -190,7 +190,6 @@ footer a {
         width: 25%;
         height: 100vh;
         padding: 60px 35px;
-        text-align: center;
     }
 
     header h1 {
@@ -199,10 +198,6 @@ footer a {
 
     header p {
         margin-bottom: 30px;
-    }
-
-    nav ul {
-        text-align: center;
     }
 
     nav li {
@@ -218,20 +213,17 @@ footer a {
 
     main {
         width: 75%;
-        min-height: 100vh;
         margin-left: 25%;
         padding: 60px 50px;
     }
 
     section {
         width: 100%;
-        max-width: 850px;
-        margin: 0 auto 50px auto;
+        margin-bottom: 50px;
     }
 
     .calculator {
         width: 100%;
-        max-width: 850px;
     }
 
     footer {
@@ -246,9 +238,7 @@ footer a {
 
     header {
         position: static;
-        width: 100%;
         height: auto;
-        text-align: center;
     }
 
     header h1 {
@@ -256,22 +246,28 @@ footer a {
     }
 
     nav ul {
-        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
     }
 
     nav li {
-        display: inline;
+        display: block;
+        flex: 1;
     }
 
     nav a {
-        width: auto;
-        padding: 8px 10px;
-        margin: 3px;
+        display: block;
+        width: 100%;
+        padding: 8px 3px;
+        margin: 0;
+        font-size: 11px;
+        white-space: nowrap;
     }
 
     main {
-        width: 100%;
-        min-height: 100vh;
         padding: 35px 15px;
     }
 
@@ -282,8 +278,6 @@ footer a {
 
     section img {
         width: 150px;
-        max-width: 100%;
-        height: auto;
         margin-right: 10px;
     }
 
@@ -302,10 +296,6 @@ footer a {
         margin-bottom: 10px;
     }
 
-    .calculator-buttons {
-        text-align: center;
-    }
-
     .calculator button {
         padding: 9px 14px;
         margin: 4px;
@@ -313,6 +303,5 @@ footer a {
 
     footer {
         width: 100%;
-        text-align: center;
     }
 }
